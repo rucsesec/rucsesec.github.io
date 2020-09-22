@@ -3,8 +3,8 @@
 <title>软件安全研究小组</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.proxy.ustclug.org/css2?family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="w3.css">
+<link href="font.css" rel="stylesheet">
 <style>
 a,body,h1,h2,h3,html,p{font-family:'Noto Sans SC',"Microsoft YaHei",SimHei,"Hiragino Sans GB",sans-serif;font-weight:300!important}h1,h2{color:#009688;font-size:50px!important}h2{font-size:30px!important}h3{font-size:20px!important;font-weight:400!important}a{color:#009688;font-weight:500!important;text-decoration:none}a:hover{text-decoration:underline}a *{color:initial;font-weight:initial}li{padding-bottom:1em}#members{padding:64px 0}@media (max-width:600px){h1{font-size:11vw!important}#members{padding:32px 0}}
 </style>
@@ -18,7 +18,7 @@ a,body,h1,h2,h3,html,p{font-family:'Noto Sans SC',"Microsoft YaHei",SimHei,"Hira
                     <!-- this is a spacer -->
                 </div>
                 <h1 class="">中国人民大学<br>软件安全研究小组</h1>
-                <p class="w3-text-grey" style="max-width: 400px">软件安全研究小组（Information SEcurity Research Lab，ISER），附属于 数据工程与知识工程教育部重点实验室 以及 中国人民大学 信息学院 计算机科学与技术系。实验室目前拥有教师6名（2名教授，2名副教授，2名讲师），博士生和硕士生20余名，本科生若干。</p>
+                <p class="w3-text-grey" style="max-width: 400px">软件安全研究小组（Software Security Research Group），长期致力于进行有实际影响力的高质量研究，重点关注软件安全性分析和软件安全攻防对抗。团队成员在软件漏洞检测、人工智能安全、移动安全、Web安全等领域有丰富的研究积累和研究成果。已在顶级学术会议/期刊上发表论文20余篇。欢迎有兴趣的同学加入我们研究小组。</p>
             </div>
             <div class="w3-col l7 m6 w3-container">
                 <div class="w3-hide-small" style="height: 147px">
@@ -26,10 +26,10 @@ a,body,h1,h2,h3,html,p{font-family:'Noto Sans SC',"Microsoft YaHei",SimHei,"Hira
                 </div>
                 <h2 class="w3-text-teal">研究方向</h2>
                 <ul class="">
-                    <li>安全漏洞挖掘: <a href="#">[S&P 2019]</a> <a href="#">[ICSE 2019]</a> <a href="#"> [CCS 2017a] [ICSE 2016b]</a> <a href="#">[ICSE 2016b]</a></li>
-                    <li>安全漏洞挖掘: <a href="#">[S&P 2019]</a> <a href="#">[ICSE 2019]</a> <a href="#"> [CCS 2017a] [ICSE 2016b]</a> <a href="#">[ICSE 2016b]</a></li>
-                    <li>安全漏洞挖掘: <a href="#">[S&P 2019]</a> <a href="#">[ICSE 2019]</a> <a href="#"> [CCS 2017a] [ICSE 2016b]</a> <a href="#">[ICSE 2016b]</a></li>
-                    <li>安全漏洞挖掘: <a href="#">[S&P 2019]</a> <a href="#">[ICSE 2019]</a> <a href="#"> [CCS 2017a] [ICSE 2016b]</a> <a href="#">[ICSE 2016b]</a></li>
+                    <li>软件漏洞检测: 模糊测试、代码分析</li>
+                    <li>人工智能安全: </li>
+                    <li>移动安全：恶意应用分析、系统安全加固</li>
+					<li>Web安全：浏览器隐私</li>
                 </ul>
             </div>
         </div>
@@ -38,7 +38,7 @@ a,body,h1,h2,h3,html,p{font-family:'Noto Sans SC',"Microsoft YaHei",SimHei,"Hira
             <h2>小组成员</h2>
             <h3>在职教师</h3>
             <div class="w3-row w3-padding-32">
-                <div class="w3-third"><img src="images/lb.jpg" alt="梁冰 教授" class="w3-circle" style="width:45%;min-width:128px;">
+                <div class="w3-third"><img src="images/lb.jpg" alt="梁彬 教授" class="w3-circle" style="width:45%;min-width:128px;">
                     <h3>梁彬</h3>
                     <p>教授</p>
                 </div>
@@ -90,10 +90,27 @@ a,body,h1,h2,h3,html,p{font-family:'Noto Sans SC',"Microsoft YaHei",SimHei,"Hira
             <ul class="w3-left-align w3-padding-16">
                 <li>
                     <b>
+                        <a href="papers/FSE2020.pdf">SinkFinder: Harvesting Hundreds of Unknown Interesting Function Pairs with Just One Seed</a>
+                    </b>
+                    <br>
+                    Pan Bian, 
+					Bin Liang,
+					Jianjun Huang,
+					Wenchang Shi,
+					Xidong Wang,
+					Jian Zhang
+                    <br>
+                    Proceedings of the 28th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (<b>FSE 2020</b>)
+                    <br>
+                    (CCF A, 录用率: ~11%)
+                </li>			
+			
+                <li>
+                    <b>
                         <a href="papers/SP2020.pdf">PMP: Cost-effective Forced Execution with Probabilistic Memory Pre-planning</a>
                     </b>
                     <br>
-                    <b><i>Wei You</i></b>,
+                    Wei You,
                     Zhuo Zhang,
                     Yonghwi Kwon,
                     Yousra Aafer,
@@ -106,29 +123,12 @@ a,body,h1,h2,h3,html,p{font-family:'Noto Sans SC',"Microsoft YaHei",SimHei,"Hira
                     <br>
                     (CCF A, 录用率: ~11%)
                 </li>
-                <li>
-                    <b>
-                        <a href="papers/ICSE2020.pdf">Finding Client-side Business Flow Tampering Vulnerabilities</a>
-                    </b>
-                    <br>
-                    I Luk Kim,
-                    Yunhui Zheng,
-                    Hogun Park,
-                    Weihang Wang,
-                    <b><i>Wei You</i></b>,
-                    Yousra Aafer,
-                    Xiangyu Zhang
-                    <br>
-                    Proceedings of the 42nd ACM/IEEE Internatinoal Conference on Software Engineering (<b>ICSE 2020</b>)
-                    <br>
-                    (CCF A, 录用率: 21%)
-                </li>
             </ul>
         </div>
     </div>
     <!-- Footer -->
     <footer class="w3-container w3-light-grey w3-center">
-        <p>地址：中国人民大学理工配楼301B 邮箱：xxx@ruc.edu.cn</p>
+        <p>地址：中国人民大学理工配楼301B 邮箱：rucsesec@gmail.com</p>
     </footer>
 </body>
 
