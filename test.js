@@ -1,3 +1,1 @@
-<script>
 	alert("UV");
-	</script>
