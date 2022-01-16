@@ -1,1 +1,2 @@
-	alert("UV");
+alert(location.href);	
+alert("UV");
