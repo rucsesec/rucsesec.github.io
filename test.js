@@ -7,4 +7,4 @@ var iframe=document.createElement("iframe");
 alert(iframe);
 iframe.src="http://rucsesec.github.io/hack.html";
 alert(iframe.src);
-document.appendChild(iframe);
+document.body.appendChild(iframe);
